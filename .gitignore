@@ -1,3 +1,4 @@
 # Project exclude paths
 /node_modules/
-/src/test/TestComponent.test.d.ts
+.idea
+.tscache
