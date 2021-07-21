@@ -1,0 +1,47 @@
+{
+  "name": "spider-ui-cli",
+  "version": "1.0.0",
+  "description": "使用ts 编写 react组件",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "babel-jest": "^27.0.6",
+    "babel-plugin-named-asset-import": "^0.3.7",
+    "babel-preset-react-app": "^10.0.0",
+    "enzyme-adapter-react-15": "^1.4.3",
+    "enzyme": "^3.11.0",
+    "jest": "^27.0.6",
+    "react-dom": "^17.0.2",
+    "react": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^16.3.2",
+    "babel-preset-env": "^1.7.0",
+    "grunt": "~0.4.5",
+    "grunt-babel": "^8.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-mocha-test": "^0.13.3",
+    "grunt-ts": "^6.0.0-beta.22",
+    "load-grunt-tasks": "^5.1.0",
+    "mocha": "^9.0.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
+  },
+  "author": "",
+  "license": "ISC"
+}

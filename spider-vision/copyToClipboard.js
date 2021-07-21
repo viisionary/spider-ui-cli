@@ -1,0 +1,2 @@
+/*! spider-ui-cli-1.0.0.js 2021-07-22 */
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var copyToClipboard=function(a){var b=document.createElement("textarea");b.value=a,b.setAttribute("readonly",""),b.style.position="absolute",b.style.left="-9999px",document.body.appendChild(b);var c=document.getSelection().rangeCount>0&&document.getSelection().getRangeAt(0);b.select(),document.execCommand("copy"),document.body.removeChild(b),c&&(document.getSelection().removeAllRanges(),document.getSelection().addRange(c))};exports.default=copyToClipboard;
