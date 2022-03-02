@@ -3,22 +3,21 @@ import { Field, FieldProps, useFormikContext } from "formik";
 import CustomDatePicker from "./CustomDatePicker";
 import { Box, FormControl, FormLabel, InputAdornment, TextField, Typography } from "@mui/material";
 import MultipleSelectChip from "./MultipleSelectChip";
-import { CustomUpload } from "../containers/page/storehouse/CustomUpload";
+// import { CustomUpload } from "../containers/page/storehouse/CustomUpload";
 import BaseResumableUpload from "./BaseResumableUpload";
-import DateTimePicker from "./DateTimePicker";
-import { FieldType, PresetFieldProps } from "./PresetForm";
+// import DateTimePicker from "./DateTimePicker";
 import { makeStyles } from "@mui/styles";
-import ErrorIcon from "../svg/common/error.svg";
 import { isEqual } from "lodash";
 import CheckBoxGroup from "./CheckBoxGroup";
-import SearchIcon from "./search.svg";
-import CustomSelected from "./CustomSelected";
 import CustomRadio from "./CustomRadio";
+import {FieldType, PresetFieldProps} from "./type";
+import CustomSelected from "./CustomSelected";
+import {DateTimePicker} from "@mui/lab";
 
 export const useStylesReddit = makeStyles(() => ({
   root: {
     "& p.Mui-error": {
-      background: `url(${ErrorIcon}) 0 0 no-repeat`,
+      // background: `url(${ErrorIcon}) 0 0 no-repeat`,
       height: "20px",
       lineHeight: "18px"
     },
@@ -112,7 +111,7 @@ export const PresetField: React.FC<PresetFieldProps> = ({
             error={(touched || !isEqual(value, initialValue)) && Boolean(error)}
           >
             <FormLabel className={classes.formLabel}>{label}</FormLabel>
-            {accept && <CustomUpload accept={accept} max={max}  {...field} />}
+            {/*{accept && <CustomUpload accept={accept} max={max}  {...field} />}*/}
           </FormControl>
         )}
       </Field>;
@@ -144,7 +143,8 @@ export const PresetField: React.FC<PresetFieldProps> = ({
       return (
         <Field name={id} key={id}>
           {({ field, meta, meta: { error, value, initialValue, touched } }: FieldProps) => (
-            <DateTimePicker label={label} {...field} />
+            <       // @ts-ignore
+                DateTimePicker label={label} {...field} />
           )}
         </Field>
       );

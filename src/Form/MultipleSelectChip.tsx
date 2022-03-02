@@ -4,10 +4,10 @@ import { Theme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
-import { option } from "./PresetForm";
 import { useField } from "formik";
 import { isEmpty, keyBy } from "lodash";
 import { FormHelperText, InputLabel } from "@mui/material";
+import {option} from "./type";
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
