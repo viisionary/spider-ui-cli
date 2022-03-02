@@ -11,7 +11,13 @@
     "@mui/icons-material": "^5.4.4",
     "@mui/material": "^5.4.4",
     "@emotion/react": "^11.8.1",
-    "@emotion/styled": "^11.8.1"
+    "@emotion/styled": "^11.8.1",
+    "react-router-dom": "^6.2.2",
+    "spider-utils": "^1.0.14",
+    "moment": "^2.29.1",
+    "formik": "^2.2.9",
+    "@mui/styles": "^5.4.4",
+    "@mui/lab": "^5.0.0-alpha.71"
   },
   "keywords": [
     "react"
