@@ -1,6 +1,6 @@
 {
   "name": "spider-ui-cli",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "使用ts 编写 react组件",
   "main": "index.js",
   "dependencies": {
