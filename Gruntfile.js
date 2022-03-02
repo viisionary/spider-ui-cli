@@ -77,6 +77,6 @@ module.exports = function (grunt) {
         // 'mochaTest',
         'uglify',
         'copy',
-        // 'deleteLib'
+        'deleteLib'
     ],);
 };
