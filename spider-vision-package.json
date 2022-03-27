@@ -13,6 +13,7 @@
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "react-router-dom": "^6.2.2",
+    "@xstate/react": "^2.0.1",
     "spider-utils": "^1.0.14",
     "moment": "^2.29.1",
     "formik": "^2.2.9",
